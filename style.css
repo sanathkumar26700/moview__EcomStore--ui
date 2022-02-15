@@ -1,0 +1,9 @@
+@import url('https://viewi.netlify.app/Components/components.css');
+@import '/CSS/variables.css';
+@import '/CSS/layout/logo.css';
+@import '/CSS/layout/social-links.css';
+@import '/CSS/utilities/utilities.css';
+@import '/screens/login-signup/login-signup.css';
+@import '/screens/cartlist/cartlist.css';
+@import '/screens/product-list/product-list.css';
+@import '/screens/wishlist/wishlist.css';
