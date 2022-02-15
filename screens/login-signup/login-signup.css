@@ -1,6 +1,6 @@
 .main__body {
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.103);
+    background: var(--main-bg);
 }
 
 .login__container {
