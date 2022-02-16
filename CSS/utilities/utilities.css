@@ -1,3 +1,8 @@
+.main__body {
+    overflow: hidden;
+    background: var(--main-bg);
+}
+
 .list-bulletless {
     list-style: none;
 }
@@ -16,7 +21,7 @@
     color: var(--primary-color);
 }
 
-.box-shadow {
+.bottom-shadow {
     box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
 }
 
