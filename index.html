@@ -15,7 +15,7 @@
 
 <body>
     <section class="main__body">
-        <nav class="nav__container">
+        <nav class="nav__container bottom-shadow">
             <div class=" logo ">
                 <a class="anchor-style--none " href="/index.html ">
                     <span class="logo--title logo--title-black "><span class="dot ">mo</span>view
@@ -23,8 +23,53 @@
                     </span>
                 </a>
             </div>
+
+            <div class="searchbar__container">
+                <input class="input__field searchbar__input--field" placeholder="Search" id="search--bar"> <label for="search--bar"><i class="fas fa-search icon btn"></i></label>
+            </div>
+
             <nav class="nav__container--nav-list">
-                <a href="./screens/signin-signup/signin.html" class="nav-items btn btn__primary btn__primary--animated">Sign In</a>
+                <ul class="list-bulletless social-links">
+                    <li>
+                        <a href="/screens/product-list/product-list.html" class="nav-list--item">
+                            <div class="nav-list--item__icon--wrapper">
+                                <i class="fas icon fa-store"></i>
+                                <span class="icon--text">store</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-list--item">
+                            <div class="nav-list--item__icon--wrapper">
+                                <span>
+                                    <i class="fas icon fa-heart">
+                                        <span class="status-badge notification-badge">5</span>
+                                </i>
+                                </span>
+                                <span class="icon--text">wishlist</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-list--item">
+                            <div class="nav-list--item__icon--wrapper">
+                                <Span>
+                                <i class="fas icon fa-shopping-cart">
+                                    <span class="status-badge notification-badge">5</span>
+                                </i>
+                                </Span>
+                                <span class="icon--text">cart</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-list--item">
+                            <div class="nav-list--item__icon--wrapper">
+                                <a href="/screens/signin-signup/signin.html" class="nav-items btn btn__primary btn__primary--animated">Sign In</a>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </nav>
 
