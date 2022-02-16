@@ -1,6 +1,7 @@
 @import url('https://viewi.netlify.app/Components/components.css');
 @import '/CSS/variables.css';
 @import '/CSS/layout/logo.css';
+@import '/CSS/layout/navbar-ecom.css';
 @import '/CSS/layout/social-links.css';
 @import '/CSS/utilities/utilities.css';
 @import '/screens/signin-signup/signin-signup.css';
