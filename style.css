@@ -5,6 +5,6 @@
 @import '/CSS/layout/social-links.css';
 @import '/CSS/utilities/utilities.css';
 @import '/screens/signin-signup/signin-signup.css';
-@import '/screens/cartlist/cartlist.css';
+@import '/screens/cart-list/cart-list.css';
 @import '/screens/product-list/product-list.css';
-@import '/screens/wishlist/wishlist.css';
+@import '/screens/wishlist/wish-list.css';
