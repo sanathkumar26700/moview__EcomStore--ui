@@ -40,12 +40,6 @@
     font-weight: 350;
 }
 
-.bill__details--element {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .bill__details--element:last-child {
     border-top: 0.2rem solid var(--primary-color);
     padding: 1rem;
