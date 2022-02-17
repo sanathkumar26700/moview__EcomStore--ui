@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/0b539878e8.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>moview | wishlist</title>
+    <title>moview | Store </title>
 </head>
 <header></header>
 
@@ -18,7 +18,7 @@
         <div class=" logo ">
             <a class="anchor-style--none " href="/index.html ">
                 <span class="logo--title logo--title-black "><span class="dot ">mo</span>view
-                <img src="/images/logo--eye.png " alt="eye--logo" class="logo--img img-responsive ">
+                <img src="/images/logo--eye.png " alt=" eye--logo" class="logo--img img-responsive ">
                 </span>
             </a>
         </div>
@@ -42,8 +42,8 @@
                     <a href="/screens/wishlist/wish-list.html" class="nav-list--item">
                         <div class="nav-list--item__icon--wrapper">
                             <span>
-                                <i class="fas icon fa-heart">
-                                <span class="status-badge notification-badge">6</span>
+                                        <i class="fas icon fa-heart">
+                                            <span class="status-badge notification-badge">6</span>
                             </i>
                             </span>
                             <span class="icon--text">wishlist</span>
@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/screens/cart-list/cart-list.html" class="nav-list--item">
+                    <a href="" class="nav-list--item">
                         <div class="nav-list--item__icon--wrapper">
                             <span>
                                 <i class="fas icon fa-shopping-cart">
@@ -74,17 +74,18 @@
     </nav>
     <div class="page--heading">
         <span>
-            My wishlist
+            My cart
         </span>
     </div>
-    <section class="wish-list__container">
-        <section class="product-list__section">
-            <div class="card vertical">
+    <section class="cart-list__section ">
+        <section class="card-list__container">
+            <div class="card horizontal">
                 <div class="card__product--img ">
                     <a href="#">
-                        <img class="img " src="/images/product-images/Bluray/bluray-image2.jpg" alt="bluray-image2">
+                        <img class="img " src="/images/product-images/Bluray/bluray-image4.jpg" alt="bluray-image4">
                     </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
+                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-heart"></i></span>
+                    <span class="badge--text badge--green">Trending</span>
                 </div>
                 <div class="card__product--content">
                     <a href="#" class="card__product--category">Blu-ray</a>
@@ -101,20 +102,74 @@
                             <span class="product__price-cost">&#8377 99</span>
                         </div>
                         <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                        Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                            </button>
+                            <button class="btn btn--animated card__btn--remove-from-cart">Remove<i class=" fas fa-shopping-cart btn__icon-right "></i></button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card vertical">
+            <div class="card horizontal">
+                <div class="card__product--img ">
+                    <a href="#">
+                        <img class="img " src="/images/product-images/Bluray/bluray-image2.jpg" alt="bluray-image2">
+                    </a>
+                    <span class="card__btn-icon card__btn-fav in--wishlist"><i class="fas fa-heart"></i></span>
+                </div>
+                <div class="card__product--content">
+                    <a href="#" class="card__product--category">Blu-ray</a>
+                    <a href="#">
+                        <h2 class="card__product--title">Product name</h2>
+                    </a>
+                    <a href="#">
+                        <h4 class="card__product--company">Company </h4>
+                    </a>
+                    <p class="card__product--description"> product description </p>
+                    <div class="card__product--details">
+                        <div class="product__price">
+                            <span class="product__price-selling">&#8377 69</span>
+                            <span class="product__price-cost">&#8377 99</span>
+                        </div>
+                        <div class="card__btn--container">
+                            <button class="btn btn--animated card__btn--remove-from-cart">Remove<i class=" fas fa-shopping-cart btn__icon-right "></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card horizontal">
+                <div class="card__product--img ">
+                    <a href="#">
+                        <img class="img " src="/images/product-images/DVD/DVD-image1.jpg" alt="DVD-image1.jpg">
+                    </a>
+                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-heart"></i></span>
+                    <span class="badge--text badge--red">only 2 left</span>
+                </div>
+                <div class="card__product--content">
+                    <a href="#" class="card__product--category">DVD</a>
+                    <a href="#">
+                        <h2 class="card__product--title">Product name</h2>
+                    </a>
+                    <a href="#">
+                        <h4 class="card__product--company">Company </h4>
+                    </a>
+                    <p class="card__product--description"> product description </p>
+                    <div class="card__product--details">
+                        <div class="product__price">
+                            <span class="product__price-selling">&#8377 99</span>
+                        </div>
+                        <div class="card__btn--container">
+                            <button class="btn btn--animated card__btn--remove-from-cart">Remove<i class=" fas fa-shopping-cart btn__icon-right "></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card horizontal">
                 <div class="card__product--img ">
                     <a href="#">
                         <img class="img " src="/images/product-images/series/series-bluray6.jpg" alt="series-bluray6">
                     </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
+                    <span class="card__btn-icon card__btn-fav in--wishlist"><i class="fas fa-heart"></i></span>
                 </div>
                 <div class="card__product--content">
                     <a href="#" class="card__product--category">Blu-ray Series</a>
@@ -131,20 +186,18 @@
                             <span class="product__price-cost">&#8377 99</span>
                         </div>
                         <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                        Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                            </button>
+                            <button class="btn btn--animated card__btn--remove-from-cart">Remove<i class=" fas fa-shopping-cart btn__icon-right "></i></button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="card vertical">
+            <div class="card horizontal">
                 <div class="card__product--img ">
                     <a href="#">
-                        <img class="img " src="/images/product-images/Bluray/bluray-image5.jpg" alt="bluray-image5">
+                        <img class="img " src="/images/product-images/Bluray/bluray-image3.jpg" alt="bluray-image3">
                     </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
+                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-heart"></i></span>
                     <span class="badge--text badge--green">50% off</span>
                 </div>
                 <div class="card__product--content">
@@ -162,105 +215,36 @@
                             <span class="product__price-cost">&#8377 99</span>
                         </div>
                         <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                        Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card vertical">
-                <div class="card__product--img ">
-                    <a href="#">
-                        <img class="img " src="/images/product-images/Bluray/bluray-image8.jpg" alt="bluray-image8">
-                    </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
-                    <span class="badge--text badge--green">50% off</span>
-                </div>
-                <div class="card__product--content">
-                    <a href="#" class="card__product--category">Blu-ray</a>
-                    <a href="#">
-                        <h2 class="card__product--title">Product name</h2>
-                    </a>
-                    <a href="#">
-                        <h4 class="card__product--company">Company </h4>
-                    </a>
-                    <p class="card__product--description"> product description </p>
-                    <div class="card__product--details">
-                        <div class="product__price">
-                            <span class="product__price-selling">&#8377 6999</span>
-                            <span class="product__price-cost">&#8377 9999</span>
-                        </div>
-                        <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                    Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                        </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card vertical">
-                <div class="card__product--img ">
-                    <a href="#">
-                        <img class="img " src="/images/product-images/Collections/collection-bluray3.jpg" alt="collection-bluray3">
-                    </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
-                </div>
-                <div class="card__product--content">
-                    <a href="#" class="card__product--category">Blu-ray collection</a>
-                    <a href="#">
-                        <h2 class="card__product--title">Product name</h2>
-                    </a>
-                    <a href="#">
-                        <h4 class="card__product--company">Company </h4>
-                    </a>
-                    <p class="card__product--description"> product description </p>
-                    <div class="card__product--details">
-                        <div class="product__price">
-                            <span class="product__price-selling">&#8377 69</span>
-                            <span class="product__price-cost">&#8377 99</span>
-                        </div>
-                        <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                    Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                        </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card vertical">
-                <div class="card__product--img ">
-                    <a href="#">
-                        <img class="img " src="/images/product-images/VCD/VCD-image3.jpg" alt="VCD-image3">
-                    </a>
-                    <span class="card__btn-icon card__btn-fav"><i class="fas fa-times"></i></span>
-                </div>
-                <div class="card__product--content">
-                    <a href="#" class="card__product--category">VCD</a>
-                    <a href="#">
-                        <h2 class="card__product--title">Product name</h2>
-                    </a>
-                    <a href="#">
-                        <h4 class="card__product--company">Company </h4>
-                    </a>
-                    <p class="card__product--description"> product description </p>
-                    <div class="card__product--details">
-                        <div class="product__price">
-                            <span class="product__price-selling">&#8377 69</span>
-                            <span class="product__price-cost">&#8377 99</span>
-                        </div>
-                        <div class="card__btn--container">
-                            <button class="btn btn--animated card__btn--add-to-cart">
-                                        Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
-                            </button>
+                            <button class="btn btn--animated card__btn--remove-from-cart">Remove<i class=" fas fa-shopping-cart btn__icon-right "></i></button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <aside class="billing__section side-shadow">
+            <div class="bill__box">
+                <h1>Your bill</h1>
+                <div class="bill__details">
+                    <div class="bill__details--element flex--center">
+                        <span class="bill__details--title">Price (5 items)</span>
+                        <span class="bill__details--subtitle">&#8377 6800</span>
+                    </div>
+                    <div class="bill__details--element flex--center">
+                        <span class="bill__details--title">Discounts</span>
+                        <span class="bill__details--subtitle">- &#8377 1200</span>
+                    </div>
+                    <div class="bill__details--element flex--center">
+                        <span class="bill__details--title">Shipping charges</span>
+                        <span class="bill__details--subtitle">&#8377 0</span>
+                    </div>
+                    <div class="bill__details--element flex--center">
+                        <span class="bill__details--title">Total</span>
+                        <span class="bill__details--subtitle">&#8377 5600</span>
+                    </div>
+                </div>
+                <a href="/screens/signin-signup/signin.html" class="btn btn__primary btn__primary--animated">Proceed to pay</a>
+            </div>
+        </aside>
     </section>
 
 </body>

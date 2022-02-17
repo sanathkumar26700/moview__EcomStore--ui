@@ -41,6 +41,12 @@
     margin-left: 2rem;
 }
 
+.flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     gap: 1rem;
