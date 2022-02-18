@@ -3,7 +3,6 @@
     display: inline-block;
     margin-right: 20px;
     list-style: none;
-    padding-top: 2rem;
 }
 
 .social-links li a:link,
@@ -22,7 +21,8 @@
 
 .sociallinks__icon-github,
 .sociallinks__icon-linkedin,
-.sociallinks__icon-twitter {
+.sociallinks__icon-twitter,
+.sociallinks__icon-mail {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
@@ -37,4 +37,8 @@
 
 .sociallinks__icon-linkedin:hover {
     color: #517fa4;
+}
+
+.sociallinks__icon-mail:hover {
+    color: rgb(245, 73, 73);
 }
