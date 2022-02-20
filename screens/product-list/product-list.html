@@ -14,7 +14,7 @@
 <header></header>
 
 <body>
-    <section class="">
+    <section class="maiproductList--container">
         <nav class="nav__container bottom-shadow">
             <div class=" logo ">
                 <a class="anchor-style--none " href="/index.html ">
@@ -27,7 +27,6 @@
             <div class="searchbar__container">
                 <input class="input__field searchbar__input--field" type="search" placeholder="Search" id="search--bar"> <label for="search--bar"><i class="fas fa-search icon btn"></i></label>
             </div>
-
             <nav class="nav__container--nav-list">
                 <ul class="list-bulletless social-links">
                     <li>
@@ -73,6 +72,10 @@
                 </ul>
             </nav>
         </nav>
+        <div class="filter__action--container">
+            <button class="btn btn__underlined" id="filter--btn"><i class="fas fa-filter"></i></button>
+            <button class="btn btn__underlined" id="close--btn"><i class="fas fa-times"></i></i></button>
+        </div>
         <section class="product-list__container">
             <aside class="filter__section side-shadow">
                 <div class="filter--box">
@@ -588,19 +591,16 @@
                             </div>
                             <div class="card__btn--container">
                                 <button class="btn btn--animated card__btn--add-to-cart">
-											Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
+									Add to cart<i class="fas fa-shopping-cart btn__icon-right"></i>
 								</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </section>
         </section>
     </section>
-
 </body>
+<script src="/screens/product-list/product-list.js"></script>
 
 </html>
