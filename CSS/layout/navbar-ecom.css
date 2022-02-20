@@ -55,3 +55,33 @@
     left: 1.2rem;
     border-radius: 1rem;
 }
+
+@media (max-width: 400px) {
+    .nav__container {
+        flex-direction: column;
+        background-color: var(--main-bg);
+        height: auto;
+    }
+    .nav__container .searchbar__container {
+        width: 100%;
+    }
+    .nav__container {
+        padding: 0 1rem;
+        position: relative;
+    }
+    .nav__container--nav-list {
+        display: flex;
+        padding: 0;
+    }
+    .nav__container--nav-list ul .nav-list--item__icon--wrapper .btn {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .nav__container--nav-list ul .nav-list--item__icon--wrapper .icon>* {
+        font-size: 1.2rem;
+        padding: 0.65rem;
+    }
+    .icon--text {
+        font-size: 0.95rem;
+    }
+}
