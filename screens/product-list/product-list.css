@@ -103,3 +103,41 @@
 .product-list__section .card__btn--container .btn {
     padding: 0.5rem 1.5rem;
 }
+
+.filter__action--container {
+    display: none;
+}
+
+.filter__action--container button {
+    margin-left: auto;
+}
+
+#filter--btn {
+    display: block;
+}
+
+#close--btn {
+    display: none;
+}
+
+
+/*---------------------------------------------------------------------*/
+
+@media (max-width: 400px) {
+    .product-list__container {
+        grid-template-columns: 1fr;
+    }
+    .product-list__section {
+        grid-template-columns: 1fr;
+    }
+    .product-list__section .vertical .img {
+        height: 15rem;
+        width: 12rem;
+    }
+    .filter__action--container {
+        display: block;
+    }
+    .filter__section {
+        display: none;
+    }
+}
