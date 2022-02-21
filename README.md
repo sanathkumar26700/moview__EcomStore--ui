@@ -16,6 +16,10 @@ So to bring back the lost glory of CDs, MOVIEW - an E-commerce store where you c
 ## Screen recording
 
 
+https://user-images.githubusercontent.com/53991484/155012682-3bfd3708-79c6-4017-93c5-435daf9363da.mp4
+
+
+
 ## main pages
 
  - [Landing page](https://moview-store.netlify.app/)
