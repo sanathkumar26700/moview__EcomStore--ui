@@ -2,7 +2,7 @@
     padding: 1rem;
     position: sticky;
     top: 0;
-    background-color: var(--main-bg)
+    background-color: var(--background-color)
 }
 
 .nav__container--nav-list ul {
@@ -11,7 +11,7 @@
 }
 
 .nav-list--item__icon--wrapper {
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;

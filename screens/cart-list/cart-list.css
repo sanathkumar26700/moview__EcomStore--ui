@@ -16,10 +16,13 @@
 
 .billing__section {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     position: sticky;
     top: calc(60px + 5rem);
     height: min-content;
+    border: 1px solid var(--border-color);
+    box-shadow: var(---box-shadow--card);
+    border-radius: 1.6rem;
 }
 
 .bill__box {

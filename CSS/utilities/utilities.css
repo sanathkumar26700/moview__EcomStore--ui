@@ -1,6 +1,6 @@
 .main__body {
     overflow: hidden;
-    background: var(--main-bg);
+    color: var(--container-color);
 }
 
 .list-bulletless {

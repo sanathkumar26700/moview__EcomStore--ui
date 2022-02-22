@@ -1,3 +1,14 @@
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
+
+#mode--btn {
+    font-size: 200%;
+    color: var(--foreground-color);
+    cursor: pointer;
+}
+
 .hero__container {
     height: 55vh;
     background-image: url('/images/product-images/Landing-page/hero--image.png');
